@@ -38,8 +38,8 @@ Existing benchmarks primarily assess general language understanding but do not a
 - **Publicly available** for research and development
 
 ## Demo
-Check out the **RuSimulBench Arena** on Hugging Face:
-[![Demo](https://img.shields.io/badge/Demo-HuggingFace-blue)](https://huggingface.co/spaces/MrSimple01/RuSimulBench_arena)
+Check out the **RuSimulBench Arena** on 🤗 HuggingFace:
+[![Demo🤗 HuggingFace](https://img.shields.io/badge/Demo-HuggingFace-blue)](https://huggingface.co/spaces/MrSimple01/RuSimulBench_arena)
 
 ## Tasks & Datasets
 Our benchmarking framework leverages:
