@@ -1,6 +1,25 @@
 # RuSimulBench: Russian Language Benchmark for LLMs
 
-![Benchmarking Russian LLMs](path/to/your/image.png)
+<p align="center">
+  <picture>
+    <img alt="RuSimulBench" src="pics/Rusimulbench-logo.png" style="max-width: 100%;">
+  </picture>
+</p>
+
+<p align="center">
+    <a href="https://opensource.org/licenses/MIT">
+    <img alt="License" src="https://img.shields.io/badge/License-MIT-yellow.svg">
+    </a>
+    <a href="https://github.com/MrSimple07/RuSimulBench/">
+    <img alt="Release" src="https://img.shields.io/badge/release-v1.1.0-blue">
+    </a>
+
+</p>
+
+<h2 align="center">
+    <p> RuSimulBench is a new open benchmark for the Russian language for evaluating fundamental models.
+</p>
+</h2>
 
 ## Overview
 In recent years, Large Language Models (LLMs) have made significant strides in natural language processing (NLP), demonstrating remarkable capabilities in text generation, reasoning, and domain-specific adaptations. These advancements have led to widespread applications in content creation, machine translation, and conversational AI.
