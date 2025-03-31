@@ -1,76 +1,51 @@
-# NIR - 4th Semester
-# RuSimulBench: Russian Language Creativity Benchmark for LLMs
+# RuSimulBench: Russian Language Benchmark for LLMs
+
+![Benchmarking Russian LLMs](path/to/your/image.png)
 
 ## Overview
+In recent years, Large Language Models (LLMs) have made significant strides in natural language processing (NLP), demonstrating remarkable capabilities in text generation, reasoning, and domain-specific adaptations. These advancements have led to widespread applications in content creation, machine translation, and conversational AI.
 
-RuSimulBench is designed to assess the creative capabilities of Large Language Models (LLMs) specifically for the Russian language. The benchmark incorporates culturally-aware evaluation metrics and Russian-specific linguistic features, providing a standardized way to measure model performance in creative tasks.
+However, while English-language models benefit from well-established evaluation frameworks, Russian LLMs lack standardized benchmarks that measure their ability to generate high-quality, contextually appropriate, and robust responses. This gap poses a challenge in improving and fine-tuning Russian LLMs for real-world applications.
 
-## Features
+## Why This Benchmark?
+Existing benchmarks primarily assess general language understanding but do not account for complex aspects such as **creativity** and **stability**, which are critical for advanced AI applications, including content generation and decision-support systems.
 
-- Russian-specific creativity evaluation metrics
-- Culturally adapted testing scenarios
-- Comprehensive evaluation across multiple creative dimensions
-- Support for various LLM architectures
-- Transparent scoring methodology
+- **Creativity** ensures that models generate diverse and original responses while maintaining contextual relevance.
+- **Stability** ensures consistency in model behavior when faced with slight variations in input prompts, making AI models more reliable and trustworthy.
 
-## Supported Models
-
-The benchmark has been tested with the following models:
-
-- IlyaGusev/saiga_llama3_8b
-- Vikhrmodels/Vikhr-Nemo-12B-Instruct-R-21-09-24
-- TinyLlama
-- Google-gemma-2-27b-it
-- mistralai/Mistral-Nemo-Instruct-2407
-- Vikhrmodels/Vikhr-Qwen-2.5-0.5b-Instruct
-
-## Evaluation Metrics
-
-The benchmark evaluates models across three key dimensions:
-- Creativity Score
-- Coherence Score
-- Diversity Score
-
-Evaluation is performed using the Gemini 1-5 flash API for consistent and reliable scoring.
+## Key Features
+- **Standardized evaluation methodology** for Russian LLMs
+- **Focus on creativity and stability** for advanced AI applications
+- **Publicly available** for research and development
 
 ## Demo
+Check out the **RuSimulBench Arena** on Hugging Face:
+[![Demo](https://img.shields.io/badge/Demo-HuggingFace-blue)](https://huggingface.co/spaces/MrSimple01/RuSimulBench_arena)
 
-Try out the benchmark in our interactive demo:
-[RuSimulBench Arena on Hugging Face](https://huggingface.co/spaces/MrSimple07/RuSimulBench_arena)
+## Tasks & Datasets
+Our benchmarking framework leverages:
+- [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) 📝
+- [MERA: Russian LLM Evaluation](https://github.com/ai-forever/MERA) 🏆
 
-## Dataset
+## Installation & Usage
+To use our benchmarking framework, clone this repository and follow the instructions:
+```bash
+# Clone the repository
+git clone https://github.com/rusimulbench.git
+cd your-repo-name
 
-The benchmark dataset is available in the `data` directory and includes various creative tasks specifically designed for Russian language evaluation. For detailed analysis of the dataset, refer to our [EDA notebook](https://github.com/MrSimple07/RuSimulBench/blob/main/rusimulbench-4-eda.ipynb).
+# Install dependencies
+pip install -r requirements.txt
 
-## Technical Objectives
-
-1. **Benchmark Analysis**: Comprehensive study of existing creativity benchmarks, focusing on adaptation requirements for Russian language.
-
-2. **Cultural Adaptation**: Translation and cultural adaptation of tasks, preserving evaluation integrity while incorporating Russian cultural context.
-
-3. **Dataset Curation**: Development of Russian-specific datasets capturing:
-   - Cultural nuances
-   - Historical context
-   - Linguistic features
-   - Creative writing scenarios
-   - Storytelling elements
-
-## Project Structure
-
-```
-RuSimulBench/
-├── data/                 # Benchmark datasets
-├── notebooks/           
-│   └── rusimulbench-4-eda.ipynb  # Exploratory Data Analysis
-├── src/                 # Source code
-├── examples/            # Usage examples
-└── README.md           # This file
+# Run the benchmark
+python benchmark.py
 ```
 
 ## Contributing
+We welcome contributions! Feel free to open issues or submit pull requests to improve the benchmark.
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
+## License
+This project is licensed under the MIT License.
 
 ## Contact
 abdurahimov.muslimbek@gmail.com
