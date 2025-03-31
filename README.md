@@ -2,7 +2,7 @@
 
 <p align="center">
   <picture>
-    <img alt="RuSimulBench" src="pics/Rusimulbench-logo.png" style="max-width: 100%;">
+    <img alt="RuSimulBench" src="pics/RuSimulBench-logo-white.png" style="max-width: 100%;">
   </picture>
 </p>
 
