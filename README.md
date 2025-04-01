@@ -45,19 +45,20 @@ Check out the **RuSimulBench Arena** on 🤗 HuggingFace:
 Our benchmarking framework leverages:
 - [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) 📝
 - [MERA: Russian LLM Evaluation](https://github.com/ai-forever/MERA) 🏆
+- [SimulBench](https://github.com/SimulBench/SimulBench) 📖
 
 ## Installation & Usage
 To use our benchmarking framework, clone this repository and follow the instructions:
 ```bash
 # Clone the repository
 git clone https://github.com/rusimulbench.git
-cd your-repo-name
+cd rusimulbench
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Run the benchmark
-python benchmark.py
+python stability_evaluator.py
 ```
 
 ## Contributing
