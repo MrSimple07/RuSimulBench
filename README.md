@@ -134,8 +134,21 @@ cd rusimulbench
 pip install -r requirements.txt
 
 # Run the benchmark
-python stability_evaluator.py
+python evaluator_main.py
 ```
+
+Optional arguments:
+- `--input_file`: Path to the CSV file with model responses (default: results/rusimulbench_responses.csv)
+- `--output_dir`: Directory to save evaluation results (default: results)
+- `--api_key`: API key for evaluation
+- `--models`: List of specific models to evaluate (if not specified, all models will be evaluated)
+
+## Results
+
+The evaluation script generates:
+- A summary of results in the terminal
+- CSV files with detailed evaluation metrics
+
 
 ## Contributing
 
