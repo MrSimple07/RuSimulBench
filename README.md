@@ -112,7 +112,7 @@ CES = (Normalized Creativity Score + Stability Coefficient)/2
 ## Demo
 
 Check out the **RuSimulBench Arena** on 🤗 HuggingFace:
-[![Demo🤗 HuggingFace](https://img.shields.io/badge/Demo-HuggingFace-blue)](https://huggingface.co/spaces/MrSimple01/RuSimulBench_arena)
+[![Demo🤗 HuggingFace](https://img.shields.io/badge/Demo-HuggingFace-blue)]([https://huggingface.co/spaces/MrSimple01/RuSimulBench_arena](https://mrsimple01-rusimulbench-arena.hf.space/))
 
 ## Tasks & Datasets
 
